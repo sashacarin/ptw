@@ -1,18 +1,43 @@
 <html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Apply</title>
+	<link rel="stylesheet" href="style.css">
+</head>
 <body>
-	<div class="card">
-		<p>Curious?</p>
-		<p>Inconsolable?</p>
-		<p>Resolute?</p>
-		<h1>Will you Poison the Well?</h1>
-		<form action="https://api.web3forms.com/submit" method="POST">
-  			<input type="hidden" name="access_key" value="d0dfe7f2-789c-4d92-94bb-470e745eec55">
-			<input type="hidden" name="redirect" value="https://www.merriam-webster.com/dictionary/hi">
-  			<input type="text" name="handle" required>
-  			<input type="email" name="email" required>
-			<textarea name="message" required></textarea>
-  			<button type="submit">Submit</button>
-		</form>
+<nav class="sidebar">
+<a href="home.html"><img src="assets/console_prompt-0.png" alt="">Apply</a>
+<a href="faq.html"><img src="assets/computer_explorer_cool-3.png" alt="">FAQ</a>
+<a href="privacy.html"><img src="assets/magnifying_glass-0.png" alt="">Privacy</a>
+</nav>
+<main class="content">
+	<div class="notepad">
+		<img class=notepad-header" src="assets/notepad-head.png" alt="">
+		<div class="notepad-body">
+			<p>Curious?</p>
+			<p>Inconsolable?</p>
+			<p>Resolute?</p>
+			<p>Will you Poison the Well?</p>
+			
+			<form action="https://api.web3forms.com/submit" method="POST">
+  				<input type="hidden" name="access_key" value="d0dfe7f2-789c-4d92-94bb-470e745eec55">
+				<input type="hidden" name="redirect" value="https://sashacarin.github.io/ptw/home">
+				<label for="Handle">Handle</label><br>
+  				<input id="Handle" type="text" name="handle" required><br>
+				<label for="email">Email</label><br>
+  				<input id="email" type="email" name="email" required><br>
+				<label for="message">Bio</label><br>
+				<textarea id="message" name="message" required></textarea>
+
+				<div aria-hidden="true">
+					<input name="1337" type="hidden" tabindex="-1" autocomplete="off">
+				</div>
+  			<button type="submit">Submit to Apply</button>
+			</form>
+		</div>
+	</div>
+</main>
 </body>
 </html>
 
