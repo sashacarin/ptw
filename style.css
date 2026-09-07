@@ -58,7 +58,7 @@ body {
 .notepad {
   width: 951px;                         
   margin: 0rem;         
-  background-image: url("assets/notepad.png");
+  background-image: url("assets/sysmessage.jpg");
   height: 557px;
   color: var(--text);            /* dark "ink" — see note below */
 }
