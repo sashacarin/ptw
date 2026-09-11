@@ -64,8 +64,10 @@ body {
 }
 
 .notepad-body {
-  padding: 1.5rem 2.5rem 3rem; 
+  padding: 1.5rem 2.5rem 3rem;
   text-align: center;
+  background: #fff;
+  border: 1px solid #000;
 }
 body { display: flex; align-items: flex-start; min-height: 100vh; }
 
