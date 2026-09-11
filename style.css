@@ -93,6 +93,14 @@ nav a:hover {
   border: 1px solid #000;
 }
 
+.notepad-body--left {
+  text-align: left;
+}
+
+.notepad-body p {
+  margin: 0 0 1.25rem;
+}
+
 button {
   display: inline-block;
   padding: 0.7rem 1.2rem;
