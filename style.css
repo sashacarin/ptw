@@ -56,14 +56,17 @@ body {
 }
 
 .notepad {
-  width: 951px;                         
-  margin: 0rem;         
+  width: 100%;
+  max-width: 951px;
+  margin: 0rem;
   background-image: url("assets/sysmessage.jpg");
   height: 557px;
   color: var(--text);            /* dark "ink" — see note below */
 }
 
 .notepad-body {
+  width: 80%;
+  margin: 0 auto;
   padding: 1.5rem 2.5rem 3rem;
   text-align: center;
   background: #fff;
@@ -181,7 +184,32 @@ footer {
 
 
 
+@media (max-width: 600px) {
+  body { flex-direction: column; }
+
+  .sidebar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  .notepad {
+    height: auto;
+    background-size: cover;
+  }
+
+  .notepad-body {
+    width: 90%;
+  }
+}
+
 @media (max-width: 480px) {
-  :root { --text-size: 16px; }         
+  :root { --text-size: 16px; }
   h1 { font-size: 1.7rem; }
 }
