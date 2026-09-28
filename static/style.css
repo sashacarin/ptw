@@ -19,7 +19,7 @@ body {
   font-family: var(--font-mono);
   font-size: var(--text-size);
   line-height: var(--line-height);
-  background-image: url("assets/WEI-2.png");
+  background-image: url("/assets/WEI-2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@ nav a:hover {
   max-width: 951px;
   margin: 0;
   height: 557px;
-  background-image: url("assets/sysmessage.jpg");
+  background-image: url("/sysmessage.jpg");
   color: var(--text);
 }
 
